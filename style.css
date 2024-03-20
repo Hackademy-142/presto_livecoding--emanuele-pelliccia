@@ -41,7 +41,7 @@
 .nav_scroll{
     margin: 5vh 15vw;
     backdrop-filter: blur(10px);
-    background-color: rgb(4, 4, 53);
+    background-color: var(--color-p);
     
 }
 
@@ -53,7 +53,7 @@
 }
 
 .boxnumeri{
-    height: 150px;
+    height: 100px;
     width: 150px;
     background-color: var(--color-p);
     border-radius: 20px;
@@ -62,6 +62,8 @@
 
 }
 
-.groundimage{
+.custombtn{
+    box-shadow: 4px 6px  var(--color-p) ;
   
 }
+
