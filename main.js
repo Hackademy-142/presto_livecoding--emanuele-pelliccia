@@ -28,15 +28,45 @@ function creatInterval(elementId, finalNumber, frequency) {
     
 }
 
-creatInterval(numArticle, 500, 20)
-creatInterval(numUtent, 1000, 10)
-creatInterval(numComment, 300, 40)
+
+
+
+
+
+
+
+
+
+let intersected = false
+const intersectionObserver = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+        if (entry.isIntersecting && intersected == false){
+            creatInterval(numArticle, 500, 20)
+            creatInterval(numUtent, 1000, 10)
+            creatInterval(numComment, 300, 40)
+            intersected = true;
+            setTimeout(() => {
+                intersected = false
+            }, 10000);
+        }
+    })
+})
+
+intersectionObserver.observe(numComment)
+
+
+
+
+
+
+
+
 
 
 let annunci = [
     {name : "articoli", categoria: "giochi", prezzo:"50€", img:"./immagini/giochi-misti.jpg"},
     {name : "accessori", categoria: "control, tastiere...", prezzo:"150€", img:"./accessori.jpg" },
-    {name : "connessioni", categoria: "ultra-fibra", prezzo:"200€", img:"./immagini/online.png"}
+    {name : "connessioni", categoria: "ultra-fibra", prezzo:"200€", img:"./wifi.jpg"}
     
     
 ]
@@ -46,10 +76,10 @@ let cardwrapper = document.querySelector("#cardwrapper")
 annunci.forEach((annuncio)=>{
     
     let col = document.createElement("div")
-    col.classList.add("col-12", "col-lg-4")
+    col.classList.add("col-12", "col-lg-4", )
     col.innerHTML = `
     <div class="card d-flex mt-5 position-relative justify-content-evenly bg-p text-white" data-aos="fade-up">
-    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-black">
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">
     NEW
     </span>
     <div class="overflow-hidden">
