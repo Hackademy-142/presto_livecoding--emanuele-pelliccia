@@ -45,6 +45,14 @@ body{
     box-shadow: 5px 5px 10px rgb(48, 161, 125);
 } */
 
+
+.imageModificata{
+    background-image: url(./immagini/img-pad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .transition{
     transition: 0.7s;
 

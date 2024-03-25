@@ -96,7 +96,7 @@ annunci.forEach((annuncio)=>{
     </div>
     <div>
     <i class="bi bi-heart fs-3"></i>
-    <a href="#" class="btn btn-outline-secondary">aggiungi al carello</a>
+    <a href="" class="btn btn-outline-secondary" >Visita</a>
     
     </div>
     </div>
