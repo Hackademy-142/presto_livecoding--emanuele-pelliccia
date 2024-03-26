@@ -1,3 +1,5 @@
+// NAV BAR
+
 let navbar = document.querySelector(".navbar")
 
 window.addEventListener("scroll", ()=>{
@@ -10,7 +12,7 @@ window.addEventListener("scroll", ()=>{
 })
 
 
-
+// NUMERI
 let numArticle = document.querySelector("#numberArticle");
 let numUtent = document.querySelector ("#numberUtent");
 let numComment = document.querySelector("#numBerComment");
@@ -36,7 +38,7 @@ function creatInterval(elementId, finalNumber, frequency) {
 
 
 
-
+// NUMERI
 let intersected = false
 const intersectionObserver = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
@@ -61,7 +63,7 @@ intersectionObserver.observe(numComment)
 
 
 
-
+// CATEGORIA
 
 let annunci = [
     {name : "articoli", categoria: "giochi", prezzo:"50€", img:"./immagini/giochi-misti.jpg"},
@@ -107,3 +109,23 @@ annunci.forEach((annuncio)=>{
 })
 
 console.log(annunci);
+
+
+
+// SWIPER
+const swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });

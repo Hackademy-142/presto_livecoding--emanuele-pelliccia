@@ -12,13 +12,12 @@ window.addEventListener("scroll", ()=>{
 
 
 fetch("./articoli.JSON").then((response)=> response.json()).then((data)=>{
-console.log(data);
+// console.log(data);
 let articles = document.querySelector("#articles")
-console.log(articles);
+// console.log(articles);
 
 function createCards(array) {
     articles.innerHTML = ""
-    console.log(true);
     array.forEach((articolo, i) => {
         let col = document.createElement("div")
         col.classList.add("col-11", "col-lg-3", "my-3", "mx-3")
@@ -77,24 +76,31 @@ categories()
 // creazione filtro
 let checkInput = document.querySelectorAll(".form-check-input")
 
-function filtroCategory() {
+function filtroCategory(array) {
     let radiosBtn = Array.from(checkInput)
+    // console.log(radiosBtn);
     let checked = radiosBtn.find( (el)=> el.checked)
-    if(checked.id == "all"){
-   createCards(data)
-
-
+    // console.log(checked);
+    if(checked.id != "all"){
+        // console.log(array);
+        let filtered = array.filter((el)=> el.categoria == checked.id)
+        articles.innerHTML =  ""
+        // createCards(filtered)
+        return filtered
+        
+        
     }else{
-        let filtered = data.filter((el)=> el.categoria == checked.id)
-        createCards(filtered)
-
+        
+        return array
+        // console.log(filtered);
     }
 }
 
 checkInput.forEach((input)=>{
     input.addEventListener("click", ()=>{
         
-        filtroCategory()
+        globalFilter()
+
     })
 })
 
@@ -106,43 +112,52 @@ let valuecurrent = document.querySelector("#valuecurrent")
 function maxAndMinPrice() {
     let prices = data.map ((articolo)=> articolo.prezzo)
     let max = Math.max(...prices )
-    let min = Math.min(...prices )
+    // let min = Math.min(...prices )
     inputprice.max = max
-    inputprice.min = min
+    // inputprice.min = min
     inputprice.value = max
     valuecurrent.innerHTML = max
 
 
     
 }
+ maxAndMinPrice()
+// globalFilter()
 
-maxAndMinPrice()
 
-function filterPrice() {
-    let filtered = data.filter((el)=> el.prezzo <= inputprice.value)
-    createCards(filtered)
+function filterPrice(array) {
+    let filtered = array.filter((el)=> el.prezzo <= inputprice.value)
+    console.log(filtered);
+    return filtered
 }
 
 
 inputprice.addEventListener("input", ()=>{
     valuecurrent.innerHTML = inputprice.value
-    filterPrice()
+    globalFilter()
 })
 
 // filtro parola
 
 let inputParola = document.querySelector("#inputParola")
-function filterParola() {
+function filterParola(array) {
 
-    let filtered = data.filter((el)=> el.nome.toLowerCase().includes(inputParola.value))
-    createCards(filtered)
+    let filtered = array.filter((el)=> el.nome.toLowerCase().includes(inputParola.value))
+    return filtered
 }
 
 inputParola.addEventListener("input", ()=>{
-    filterParola()
+    globalFilter()
 })
 
+function globalFilter(){
+    let filteredByCategory = filtroCategory(data)
+    let filteredByPrice =  filterPrice(filteredByCategory)
+    let filterByParola = filterParola(filteredByPrice)
+    createCards(filterByParola)
 
+
+}
 
 
 })
