@@ -1,107 +1,107 @@
 [   {
     "id": 1,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
+    "nome": "cuffie gaming",
+    "prezzo": 25,
     "categoria": "Accessori"
   }, {
     "id": 2,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
+    "nome": "porta joystick",
+    "prezzo": 40,
     "categoria": "Accessori"
   }, {
     "id": 3,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
+    "nome": "tastiera gaming",
+    "prezzo": 500,
     "categoria": "Accessori"
   }, {
     "id": 4,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
+    "nome": "tappetino mouse",
+    "prezzo": 37,
     "categoria": "Accessori"
   }, {
     "id": 5,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 1770,
-    "categoria": "Arredamento"
+    "nome": "Play Station",
+    "prezzo": 80,
+    "categoria": "Articoli"
   }, {
     "id": 6,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "Xbox",
+    "prezzo": 80,
+    "categoria": "Articoli"
   }, {
     "id": 7,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "Computer gaming",
+    "prezzo": 1150,
+    "categoria": "Articoli"
   }, {
     "id": 8,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "Fibra ottica",
+    "prezzo": 880,
+    "categoria": "connesioni"
   }, {
     "id": 9,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "Satellitare ",
+    "prezzo": 2250,
+    "categoria": "connesioni"
   }, {
     "id": 10,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 4800,
+    "nome": "Remota",
+    "prezzo": 150,
     "categoria": "connesioni"
   }, {
     "id": 11,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": " GTA VI",
+    "prezzo": 60,
+    "categoria": "giochi"
   }, {
     "id": 12,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 1334,
-    "categoria": "Accessori"
+    "nome": "Raimbow Six Seige",
+    "prezzo": 50,
+    "categoria": "giochi"
   }, {
     "id": 13,
-    "nome": "quin",
-    "prezzo": 34,
-    "categoria": "Accessori"
+    "nome": "Fifa 24",
+    "prezzo": 80,
+    "categoria": "giochi"
   }, {
     "id": 14,
-    "nome": "quin",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "Mario bross",
+    "prezzo": 65,
+    "categoria": "giochi"
   }, {
     "id": 15,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "Fortnite",
+    "prezzo": 0,
+    "categoria": "giochi"
   }, {
     "id": 16,
-    "nome": "wifi",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "Rocket league",
+    "prezzo": 25,
+    "categoria": "giochi"
   }, {
     "id": 17,
-    "nome": "wifi",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "Warzone",
+    "prezzo": 40,
+    "categoria": "giochi"
   }, {
     "id": 18,
-    "nome": "wifi",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "NBA 2k24",
+    "prezzo": 70,
+    "categoria": "giochi"
   }, {
     "id": 19,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "Minecraft",
+    "prezzo": 90,
+    "categoria": "giochi"
   }, {
     "id": 20,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "Crash",
+    "prezzo": 45,
+    "categoria": "giochi"
   }, {
     "id": 21,
-    "nome": "Katana di Hattori Hanzo",
-    "prezzo": 334,
-    "categoria": "Accessori"
+    "nome": "Resident evil",
+    "prezzo": 300,
+    "categoria": "giochi"
   }
 ]

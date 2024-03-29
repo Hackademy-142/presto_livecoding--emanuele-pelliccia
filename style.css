@@ -158,7 +158,22 @@ body{
 }
 
 
+.modificheFiltri{
+    background-color: rgb(92, 195, 246);
+    /* padding: 10px; */
+     /* margin-top: 10px; */
+    border-radius: 20px;
+    position: sticky;
+    top: 10px;
+    box-shadow: 0px 0px 2px 10px rgba(84, 105, 202, 0.451);
+}
 
+
+.modifichejs{
+    
+    box-shadow: 0px 0px 2px 5px rgba(9, 114, 111, 0.451) ;
+    
+}
 
 
 @media screen and (max-width:600px) {

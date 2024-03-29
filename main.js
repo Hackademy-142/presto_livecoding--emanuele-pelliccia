@@ -80,7 +80,7 @@ annunci.forEach((annuncio)=>{
     let col = document.createElement("div")
     col.classList.add("col-12", "col-lg-4", )
     col.innerHTML = `
-    <div class="card d-flex mt-5 position-relative justify-content-evenly bg-p text-white" data-aos="fade-up">
+    <div class="card d-flex my-5 mx-3 position-relative justify-content-evenly bg-p text-white " data-aos="fade-up">
     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">
     NEW
     </span>
@@ -88,7 +88,7 @@ annunci.forEach((annuncio)=>{
     <img src=${annuncio.img} class="img_card card-img-top" alt="">
     
     </div>
-    <div class="card-bod d-flex flex-column justify-content-between">
+    <div class="card-body d-flex flex-column justify-content-between">
     <div>
     
     <h4 class="card-title text-center fw-blod mb-3">${annuncio.name}</h4>

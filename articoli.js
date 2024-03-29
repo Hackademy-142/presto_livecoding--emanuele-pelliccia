@@ -22,7 +22,7 @@ function createCards(array) {
         let col = document.createElement("div")
         col.classList.add("col-11", "col-lg-3", "my-3", "mx-3")
         col.innerHTML = `
-        <div class="card" ">
+        <div class="card text-white bg-black  " >
         <img src="https://picsum.photos/20${i}" class="card-img-top" alt="">
         <div class="card-body">
         <h4 class="card-title text-center fw-blod mb-3">${articolo.nome}</h4>
