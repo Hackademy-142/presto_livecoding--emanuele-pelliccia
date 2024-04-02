@@ -175,7 +175,9 @@ body{
     
 }
 
-
+.coloreNavBar{
+    background-color: rgb(92, 195, 246);
+}
 
 @media screen and (max-width:600px) {
     .nav_scroll{
