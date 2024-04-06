@@ -1,0 +1,72 @@
+body{
+background: radial-gradient(rgb(13, 202, 240), #faf9faf3);
+}
+
+.immaginebottom{
+    border-bottom: 2px solid rgb(46, 76, 82);
+}
+
+.paragrafo1{
+    margin-top: 100px;
+}
+
+
+/* navbar */
+.transition{
+    transition: 0.7s;
+
+}
+
+.margineNavbar{
+ margin: 5vh 15vw;
+
+}
+.nav_scroll{
+    
+    backdrop-filter: blur(10px);
+    background-color: rgba(2, 13, 61, 0.607);
+    
+}
+
+/* header */
+
+.titoloheader{
+    font-family: 'Times New Roman', Times, serif;
+    /* border-bottom: 2px solid white; */
+}
+
+.immagineheader{
+    margin-left: 10vw;
+    box-shadow: 0px 0px 10px 10px white;
+}
+.immagineheader2{
+    box-shadow: 0px 0px 10px 10px white;
+}
+
+/* sezione1 */
+
+.titolosezione{
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+
+.immaginesezione1{
+    border-radius: 50%;
+    height: 20vh;
+    padding: 4px;
+    box-shadow: 0px 0px 5px 5px white;
+    
+    margin-left: 10vw;
+    margin-top: 50px;    
+    
+}
+
+
+.videosezione{
+    margin-left: 10vw;
+}
+
+.immaginesezione2{
+    box-shadow: 0px 0px 5px 5px white;
+    margin-left: 5vw;
+}

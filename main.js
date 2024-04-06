@@ -3,7 +3,6 @@
 let navbar = document.querySelector(".navbar")
 
 window.addEventListener("scroll", ()=>{
-    console.log(window.scrollY);
     if (window.scrollY > 0 && window.innerWidth > 800) {
         navbar.classList.add("marginNavbar")
     }else {
@@ -67,8 +66,8 @@ intersectionObserver.observe(numComment)
 
 let annunci = [
     {name : "articoli", categoria: "giochi", prezzo:"50€", img:"./immagini/giochi-misti.jpg"},
-    {name : "accessori", categoria: "control, tastiere...", prezzo:"150€", img:"./accessori.jpg" },
-    {name : "connessioni", categoria: "ultra-fibra", prezzo:"200€", img:"./wifi.jpg"}
+    {name : "accessori", categoria: "control, tastiere...", prezzo:"150€", img:"./immagini/accessori.jpg" },
+    {name : "connessioni", categoria: "ultra-fibra", prezzo:"200€", img:"./immagini/wifi.jpg"}
     
     
 ]
@@ -108,7 +107,7 @@ annunci.forEach((annuncio)=>{
 
 })
 
-console.log(annunci);
+
 
 
 
