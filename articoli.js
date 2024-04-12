@@ -20,10 +20,10 @@ function createCards(array) {
     articles.innerHTML = ""
     array.forEach((articolo, i) => {
         let col = document.createElement("div")
-        col.classList.add("col-11", "col-lg-3", "my-3", "mx-3")
+        col.classList.add("col-11", "col-lg-3", "my-3", "mx-3", )
         col.innerHTML = `
         <div class="card text-white bg-black  " >
-        <img src="https://picsum.photos/20${i}" class="card-img-top" alt="">
+        <img src="${articolo.immagine}" class="card-img-top  " alt="">
         <div class="card-body">
         <h4 class="card-title text-center fw-blod mb-3">${articolo.nome}</h4>
 <p class" card-text ">categoria: <span class"fs-4 m-0">${articolo.categoria}</span></p>

@@ -3,107 +3,147 @@
     "nome": "cuffie gaming",
     "prezzo": 25,
     "categoria": "Accessori",
-    "immagine": "https://picsum.photos/200/300"
+    "immagine": "https://m.media-amazon.com/images/I/61EHGKbCuSL.__AC_SX300_SY300_QL70_ML2_.jpg"
     
   }, {
     "id": 2,
     "nome": "porta joystick",
     "prezzo": 40,
-    "categoria": "Accessori"
+    "categoria": "Accessori",
+    "immagine":  "https://m.media-amazon.com/images/I/61wyF6dq4hL.__AC_SX300_SY300_QL70_ML2_.jpg"
+
   }, {
     "id": 3,
     "nome": "tastiera gaming",
     "prezzo": 500,
-    "categoria": "Accessori"
+    "categoria": "Accessori",
+    "immagine": "https://m.media-amazon.com/images/I/71gG4EYpibL._AC_SX679_.jpg"
+
   }, {
     "id": 4,
     "nome": "tappetino mouse",
     "prezzo": 37,
-    "categoria": "Accessori"
+    "categoria": "Accessori",
+    "immagine": "https://m.media-amazon.com/images/I/51ORS97D+KL._AC_SX679_.jpg"
+
   }, {
     "id": 5,
     "nome": "Play Station",
     "prezzo": 80,
-    "categoria": "Articoli"
+    "categoria": "Articoli",
+    "immagine": "https://m.media-amazon.com/images/I/610RVASMtML.__AC_SY300_SX300_QL70_ML2_.jpg"
+
   }, {
     "id": 6,
     "nome": "Xbox",
     "prezzo": 80,
-    "categoria": "Articoli"
+    "categoria": "Articoli",
+    "immagine": "https://m.media-amazon.com/images/I/61CLCiCNtaL.__AC_SX300_SY300_QL70_ML2_.jpg"
+
   }, {
     "id": 7,
     "nome": "Computer gaming",
     "prezzo": 1150,
-    "categoria": "Articoli"
+    "categoria": "Articoli",
+    "immagine": "https://m.media-amazon.com/images/I/71VSuYLJSCL.__AC_SX300_SY300_QL70_ML2_.jpg"
+
   }, {
     "id": 8,
     "nome": "Fibra ottica",
     "prezzo": 880,
-    "categoria": "connesioni"
+    "categoria": "connesioni",
+    "immagine": "https://m.media-amazon.com/images/I/61PIOEAECSL._SX522_.jpg"
+
   }, {
     "id": 9,
     "nome": "Satellitare ",
     "prezzo": 2250,
-    "categoria": "connesioni"
+    "categoria": "connesioni",
+    "immagine": "https://m.media-amazon.com/images/I/616dD7DqkbL._AC_SX679_.jpg"
+
   }, {
     "id": 10,
     "nome": "Remota",
     "prezzo": 150,
-    "categoria": "connesioni"
+    "categoria": "connesioni",
+    "immagine": "https://m.media-amazon.com/images/I/41Y6JCmYypL._AC_SX679_.jpg"
+
   }, {
     "id": 11,
     "nome": " GTA VI",
     "prezzo": 60,
-    "categoria": "giochi"
+    "categoria": "giochi",
+    "immagine": "https://m.media-amazon.com/images/I/81Ow0EK3azL.__AC_SX300_SY300_QL70_ML2_.jpg"
+
   }, {
     "id": 12,
     "nome": "Raimbow Six Seige",
     "prezzo": 50,
-    "categoria": "giochi"
+    "categoria": "giochi",
+    "immagine": "https://m.media-amazon.com/images/I/71n0Cs0BlJL._AC_SX679_.jpg"
+
   }, {
     "id": 13,
     "nome": "Fifa 24",
     "prezzo": 80,
-    "categoria": "giochi"
+    "categoria": "giochi",
+    "immagine": "https://m.media-amazon.com/images/I/71jxNRMBc8L.__AC_SX300_SY300_QL70_ML2_.jpg"
+
   }, {
     "id": 14,
     "nome": "Mario bross",
     "prezzo": 65,
-    "categoria": "giochi"
+    "categoria": "giochi",
+    "immagine": "https://m.media-amazon.com/images/I/81VrW5EM1NL.__AC_SX300_SY300_QL70_ML2_.jpg"
+
   }, {
     "id": 15,
     "nome": "Fortnite",
     "prezzo": 0,
-    "categoria": "giochi"
+    "categoria": "giochi",
+    "immagine": "https://m.media-amazon.com/images/I/51gUJJer8iL._SY445_SX342_.jpg"
+
   }, {
     "id": 16,
     "nome": "Rocket league",
     "prezzo": 25,
-    "categoria": "giochi"
+    "categoria": "giochi",
+    "immagine": "https://m.media-amazon.com/images/I/71Nvjq+7O7L._AC_SX679_.jpg"
+
   }, {
     "id": 17,
     "nome": "Warzone",
     "prezzo": 40,
-    "categoria": "giochi"
+    "categoria": "giochi",
+    "immagine": "https://m.media-amazon.com/images/I/81tmUfXVLjL._AC_SX679_.jpg"
+
   }, {
     "id": 18,
     "nome": "NBA 2k24",
     "prezzo": 70,
-    "categoria": "giochi"
+    "categoria": "giochi",
+    "immagine": "https://m.media-amazon.com/images/I/81bEdwXQAbL.__AC_SX300_SY300_QL70_ML2_.jpg"
+
   }, {
     "id": 19,
     "nome": "Minecraft",
     "prezzo": 90,
-    "categoria": "giochi"
+    "categoria": "giochi",
+    "immagine": "https://m.media-amazon.com/images/I/719YkrrEDnL.__AC_SX300_SY300_QL70_ML2_.jpg"
+
   }, {
     "id": 20,
     "nome": "Crash",
     "prezzo": 45,
-    "categoria": "giochi"
+    "categoria": "giochi",
+    "immagine": "https://m.media-amazon.com/images/I/81+J1dznCoL._AC_SX342_SY445_.jpg"
+
   }, {
     "id": 21,
     "nome": "Resident evil",
     "prezzo": 300,
-    "categoria": "giochi"
+    "categoria": "giochi",
+    "immagine": "https://m.media-amazon.com/images/I/71X0kpkEnML.__AC_SX300_SY300_QL70_ML2_.jpg"
+
   }
 ]
